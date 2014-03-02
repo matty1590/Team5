@@ -24,8 +24,8 @@ public class GuiDisplay : MonoBehaviour {
 		int timerSeconds = tenMinuteTimer.seconds;
 		// get player stats from stats script:
 		//player 1
-		int player1Hunger = tenMinuteTimer.player1hunger;
-		int player1Thirst = tenMinuteTimer.player1thirst;
+	//	int player1Hunger = tenMinuteTimer.player1hunger;
+	//	int player1Thirst = tenMinuteTimer.player1thirst;
 		//int player1Money = tenMinuteTimer.player1money;
 		int player1Happiness = tenMinuteTimer.player1happiness;
 		int player1Health = tenMinuteTimer.player1health;
@@ -45,7 +45,7 @@ public class GuiDisplay : MonoBehaviour {
 
 		//GUI Group for Player 1 Stats
 		GUI.BeginGroup(new Rect(Screen.width/19 , Screen.height / 20, 500, 100));
-		               GUI.Box ( new Rect (0,0,500, 30), FPName + " Hunger: " + player1Hunger.ToString () + " Thirst: " +  player1Thirst.ToString () + " Money: $" +  StatsCode.player1money.ToString ("f2") + " Happiness: " +  player1Happiness.ToString () + " Health: " +  player1Health.ToString ());
+		GUI.Box ( new Rect (0,0,500, 30), FPName + " Hunger: " + StatsCode.player1hunger.ToString () + " Thirst: " +  StatsCode.player1thirst.ToString () + " Money: $" +  StatsCode.player1money.ToString ("f2") + " Happiness: " +  player1Happiness.ToString () + " Health: " +  player1Health.ToString ());
 		GUI.EndGroup();
 		// GUI group for Player 2 Stats
 		GUI.BeginGroup(new Rect(Screen.width*0.6f, Screen.height/20, 500,100));

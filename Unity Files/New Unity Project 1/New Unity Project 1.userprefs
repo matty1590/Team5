@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GuiDisplay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\shopFirst.cs">
     <Files>
-      <File FileName="Assets\donationBooth.js" Line="21" Column="1" />
-      <File FileName="Assets\donationBoothC.cs" Line="44" Column="8" />
-      <File FileName="Assets\StatsCode.cs" Line="31" Column="37" />
-      <File FileName="Assets\GuiDisplay.cs" Line="48" Column="156" />
+      <File FileName="Assets\shopFirst.cs" Line="38" Column="39" />
+      <File FileName="Assets\donationBoothC.cs" Line="42" Column="30" />
+      <File FileName="Assets\StatsCode.cs" Line="34" Column="3" />
+      <File FileName="Assets\GuiDisplay.cs" Line="48" Column="136" />
+      <File FileName="Assets\P2MoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="2" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

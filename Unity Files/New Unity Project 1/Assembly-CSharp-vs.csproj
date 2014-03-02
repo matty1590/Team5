@@ -52,6 +52,7 @@
      <Compile Include="Assets\P2MoveScript.cs" />
      <Compile Include="Assets\StatsCode.cs" />
      <Compile Include="Assets\donationBoothC.cs" />
+     <Compile Include="Assets\shopFirst.cs" />
      <Compile Include="Assets\splashGUI.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />

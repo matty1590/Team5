@@ -33,4 +33,6 @@ public class P2MoveScript : MonoBehaviour {
 			transform.Rotate(0f,2f,0f);
 		}
 	}
+
+
 }
