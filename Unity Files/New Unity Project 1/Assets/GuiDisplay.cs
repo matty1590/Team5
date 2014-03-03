@@ -27,14 +27,14 @@ public class GuiDisplay : MonoBehaviour {
 	//	int player1Hunger = tenMinuteTimer.player1hunger;
 	//	int player1Thirst = tenMinuteTimer.player1thirst;
 		//int player1Money = tenMinuteTimer.player1money;
-		int player1Happiness = tenMinuteTimer.player1happiness;
-		int player1Health = tenMinuteTimer.player1health;
+//		int player1Happiness = tenMinuteTimer.player1happiness;
+		//int player1Health = tenMinuteTimer.player1health;
 		// player 2 
-		int player2Hunger = tenMinuteTimer.player2hunger;
-		int player2Thirst = tenMinuteTimer.player2thirst;
+	//	int player2Hunger = tenMinuteTimer.player2hunger;
+	//	int player2Thirst = tenMinuteTimer.player2thirst;
 //		int player2Money = tenMinuteTimer.player2money;
-		int player2Happiness = tenMinuteTimer.player2happiness;
-		int player2Health = tenMinuteTimer.player2health;
+	//	int player2Happiness = tenMinuteTimer.player2happiness;
+	//	int player2Health = tenMinuteTimer.player2health;
 
 		// GUI Group for Timer
 		GUI.BeginGroup( new Rect(Screen.width/2 , Screen.height/20, 500, 100));
@@ -45,11 +45,11 @@ public class GuiDisplay : MonoBehaviour {
 
 		//GUI Group for Player 1 Stats
 		GUI.BeginGroup(new Rect(Screen.width/19 , Screen.height / 20, 500, 100));
-		GUI.Box ( new Rect (0,0,500, 30), FPName + " Hunger: " + StatsCode.player1hunger.ToString () + " Thirst: " +  StatsCode.player1thirst.ToString () + " Money: $" +  StatsCode.player1money.ToString ("f2") + " Happiness: " +  player1Happiness.ToString () + " Health: " +  player1Health.ToString ());
+		GUI.Box ( new Rect (0,0,500, 30), FPName + " Hunger: " + StatsCode.player1hunger.ToString () + " Thirst: " +  StatsCode.player1thirst.ToString () + " Money: $" +  StatsCode.player1money.ToString ("f2") + " Happiness: " +  StatsCode.player1happiness.ToString () + " Health: " +  StatsCode.player1health.ToString ());
 		GUI.EndGroup();
 		// GUI group for Player 2 Stats
 		GUI.BeginGroup(new Rect(Screen.width*0.6f, Screen.height/20, 500,100));
-		GUI.Box ( new Rect (0,0,500, 30),/*SPname +*/ " Hunger: " + player2Hunger.ToString () + " Thirst: " +  player2Thirst.ToString () + " Money: $" +  StatsCode.player2money.ToString ("f2") + " Happiness: " +  player2Happiness.ToString () + " Health: " +  player2Health.ToString ());
+		GUI.Box ( new Rect (0,0,500, 30),/*SPname +*/ " Hunger: " + StatsCode.player2hunger.ToString () + " Thirst: " +  StatsCode.player2thirst.ToString () + " Money: $" +  StatsCode.player2money.ToString ("f2") + " Happiness: " +  StatsCode.player2happiness.ToString () + " Health: " +  StatsCode.player2health.ToString ());
 		GUI.EndGroup();
 	}
 

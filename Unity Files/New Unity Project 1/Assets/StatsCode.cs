@@ -9,15 +9,15 @@ public class StatsCode : MonoBehaviour
 	public int cycleseconds = 1000;
 	// player 1 stats
 	public static int player1hunger = 100;
-	public int player1health = 100;
+	public static int player1health = 100;
 	public static int player1thirst = 100;
-	public int player1happiness = 100;
+	public static int player1happiness = 100;
 	public static float player1money = 1000;
 	// player 2 stats
-	public int player2hunger = 80;
-	public int player2health = 100;
-	public int player2thirst = 80;
-	public int player2happiness = 100;
+	public static int player2hunger = 80;
+	public static int player2health = 100;
+	public static int player2thirst = 80;
+	public static int player2happiness = 100;
 	public static float player2money = 0;
 	
 	bool timerEnd = false;

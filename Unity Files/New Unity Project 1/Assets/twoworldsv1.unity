@@ -1437,12 +1437,6 @@ MonoBehaviour:
   seconds: 0
   minutes: 10
   cycleseconds: 1000
-  player1health: 100
-  player1happiness: 100
-  player2hunger: 80
-  player2health: 100
-  player2thirst: 80
-  player2happiness: 100
 --- !u!114 &890949938
 MonoBehaviour:
   m_ObjectHideFlags: 0
