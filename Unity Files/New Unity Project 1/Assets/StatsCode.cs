@@ -26,6 +26,8 @@ public class StatsCode : MonoBehaviour
 	
 	void Update() // Update is called once per frame
 	{
+
+		if(pauseWorld.paused == false){
 		int player1moneyI = Mathf.FloorToInt(player1money);
 		int player2moneyI = Mathf.FloorToInt(player2money);
 		player1happiness = ((player1moneyI/10)+player1health + ((player1health+player1thirst)/2))/2;
@@ -60,7 +62,7 @@ public class StatsCode : MonoBehaviour
 
 		updateplayerstats();
 
-
+		}
 	}
 
 	// function to update the stats of each player

@@ -1335,6 +1335,10 @@ GameObject:
   - 114: {fileID: 847626056}
   - 114: {fileID: 847626055}
   - 114: {fileID: 847626057}
+  - 114: {fileID: 847626058}
+  - 114: {fileID: 847626061}
+  - 114: {fileID: 847626060}
+  - 114: {fileID: 847626059}
   m_Layer: 0
   m_Name: FirstWorldSpawner
   m_TagString: Untagged
@@ -1359,7 +1363,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 847626052}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a4bdee3f696fe846bfde8ce47d3a725, type: 3}
   m_Name: 
@@ -1372,7 +1376,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 847626052}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a4bdee3f696fe846bfde8ce47d3a725, type: 3}
   m_Name: 
@@ -1385,7 +1389,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 847626052}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a4bdee3f696fe846bfde8ce47d3a725, type: 3}
   m_Name: 
@@ -1398,12 +1402,68 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 847626052}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a4bdee3f696fe846bfde8ce47d3a725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Collectable: {fileID: 100000, guid: 23f5dcd3055e9c94ca3109c1608b2dfe, type: 3}
+  timer: 0
+--- !u!114 &847626058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 847626052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d11fdc4deed6254aa4b04b2ad8600d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collectable: {fileID: 100000, guid: 23f5dcd3055e9c94ca3109c1608b2dfe, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
+  timer: 0
+--- !u!114 &847626059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 847626052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d11fdc4deed6254aa4b04b2ad8600d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collectable: {fileID: 100000, guid: 58c59389437c50943be47c205b144921, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
+  timer: 0
+--- !u!114 &847626060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 847626052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d11fdc4deed6254aa4b04b2ad8600d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collectable: {fileID: 100012, guid: 41941810ed4986a41819f2bf07c3121f, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
+  timer: 0
+--- !u!114 &847626061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 847626052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d11fdc4deed6254aa4b04b2ad8600d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collectable: {fileID: 100008, guid: cab39ebcb392c6e438990d4d16d4b9b7, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
   timer: 0
 --- !u!1 &890949936
 GameObject:
@@ -1416,6 +1476,8 @@ GameObject:
   - 114: {fileID: 890949938}
   - 114: {fileID: 890949937}
   - 114: {fileID: 890949940}
+  - 114: {fileID: 890949941}
+  - 114: {fileID: 890949942}
   m_Layer: 0
   m_Name: Gui Object
   m_TagString: Untagged
@@ -1472,6 +1534,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Button: {fileID: 0}
   FirstPersonName: Enter Name here
+--- !u!114 &890949941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890949936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84f4bd653a50ce43aa5ce66cc492ed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ii: 0
+--- !u!114 &890949942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890949936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb1c3909dc1402439e9c5210414d358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &974248046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,10 +1591,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 978293592}
-  - 114: {fileID: 978293593}
+  - 114: {fileID: 978293597}
   - 114: {fileID: 978293595}
   - 114: {fileID: 978293594}
-  - 114: {fileID: 978293596}
+  - 114: {fileID: 978293593}
   m_Layer: 0
   m_Name: ThirdWorldSpawner
   m_TagString: Untagged
@@ -1536,11 +1621,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 978293591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b72d582047658147ae0faea020e7810, type: 3}
+  m_Script: {fileID: 11500000, guid: 205bb7af045776e43a8cbc51d0a30115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Collectable: {fileID: 100008, guid: cab39ebcb392c6e438990d4d16d4b9b7, type: 3}
+  Collectable: {fileID: 100000, guid: 83202f06fb81a964f979f10581b63548, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
   timer: 0
+  temp_spawn_cube: {fileID: 0}
 --- !u!114 &978293594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1549,11 +1636,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 978293591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b72d582047658147ae0faea020e7810, type: 3}
+  m_Script: {fileID: 11500000, guid: 205bb7af045776e43a8cbc51d0a30115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Collectable: {fileID: 100012, guid: 41941810ed4986a41819f2bf07c3121f, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
   timer: 0
+  temp_spawn_cube: {fileID: 0}
 --- !u!114 &978293595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1562,12 +1651,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 978293591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b72d582047658147ae0faea020e7810, type: 3}
+  m_Script: {fileID: 11500000, guid: 205bb7af045776e43a8cbc51d0a30115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Collectable: {fileID: 100000, guid: 58c59389437c50943be47c205b144921, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
   timer: 0
---- !u!114 &978293596
+  temp_spawn_cube: {fileID: 0}
+--- !u!114 &978293597
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1575,11 +1666,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 978293591}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b72d582047658147ae0faea020e7810, type: 3}
+  m_Script: {fileID: 11500000, guid: 205bb7af045776e43a8cbc51d0a30115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Collectable: {fileID: 100000, guid: 23f5dcd3055e9c94ca3109c1608b2dfe, type: 3}
+  Collectable: {fileID: 100008, guid: cab39ebcb392c6e438990d4d16d4b9b7, type: 3}
+  spawn_position: {x: 0, y: 0, z: 0}
   timer: 0
+  temp_spawn_cube: {fileID: 0}
 --- !u!1 &1051369907
 GameObject:
   m_ObjectHideFlags: 0

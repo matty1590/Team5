@@ -8,9 +8,13 @@ function spawn_Collectable ()
 {
 spawn_position = Vector3 (Random.Range(-4.5, 4.5),5.2,Random.Range(-4.5, 4.5)) ;
 var temp_spawn_cube = Instantiate(Collectable, spawn_position, Quaternion.identity);
+
 }
 
 function Start () {
+}
+
+function OnGui(){
 
 }
 
@@ -20,5 +24,6 @@ if(timer > 10)
 {
 spawn_Collectable();
 timer = 0.0;
+
 }
 }

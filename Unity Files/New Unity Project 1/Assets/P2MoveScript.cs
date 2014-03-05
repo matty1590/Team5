@@ -12,6 +12,7 @@ public class P2MoveScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
+		if(pauseWorld.paused == false){
 		// when W key is pressed, moves object forward 0.1 units per frame
 		if(Input.GetKey(KeyCode.W))
 		{
@@ -31,6 +32,7 @@ public class P2MoveScript : MonoBehaviour {
 		if(Input.GetKey(KeyCode.D))
 		{
 			transform.Rotate(0f,2f,0f);
+		}
 		}
 	}
 

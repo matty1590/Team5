@@ -12,6 +12,7 @@ public class P1MoveScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
+		if(pauseWorld.paused == false){
 		// when Up Arrow is pressed, moves object forward 0.1 units per frame
 		if(Input.GetKey(KeyCode.UpArrow))
 		{
@@ -32,5 +33,6 @@ public class P1MoveScript : MonoBehaviour {
 		{
 			transform.Rotate(0f,2f,0f);
 		}
+	}
 	}
 }
