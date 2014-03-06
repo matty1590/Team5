@@ -8,4 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/menu.unity
   - enabled: 1
-    path: Assets/twoworldsv1.unity
+    path: Assets/oldTwoWorlds.unity

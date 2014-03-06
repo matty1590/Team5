@@ -55,6 +55,8 @@
      <Compile Include="Assets\donationBoothC.cs" />
      <Compile Include="Assets\firstworldCollectSpawnerCS.cs" />
      <Compile Include="Assets\pauseWorld.cs" />
+     <Compile Include="Assets\scr_Pick_Up.cs" />
+     <Compile Include="Assets\scr_Pick_Up_2.cs" />
      <Compile Include="Assets\shopFirst.cs" />
      <Compile Include="Assets\splashGUI.cs" />
      <Compile Include="Assets\thirdShop.cs" />

@@ -17,7 +17,7 @@ public class firstworldCollectSpawnerCS : MonoBehaviour {
 	{
 
 		spawn_position.x = Random.Range(-4.5f, 4.5f);
-		spawn_position.y = -4.7f;
+		spawn_position.y = 41.0f;
 		spawn_position.z = Random.Range(-4.5f, 4.5f); 
 		GameObject temp_spawn_cube = (GameObject)Instantiate(Collectable, spawn_position, transform.rotation);
 		//GameObject go = (GameObject)Instantiate(Resources.Load(Collectable)); ;

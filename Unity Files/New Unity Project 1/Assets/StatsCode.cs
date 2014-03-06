@@ -20,7 +20,7 @@ public class StatsCode : MonoBehaviour
 	public static int player2happiness = 100;
 	public static float player2money = 0;
 	
-	bool timerEnd = false;
+	public static bool timerEnd = false;
 	
 	void Start() { } // Use this for initialization
 	
@@ -141,12 +141,12 @@ public class StatsCode : MonoBehaviour
 
 		if (player1health<0)
 		{
-			// insert death event here
+			Destroy(GameObject.Find ("First_world_Camera"));
 		}
-
+		
 		if (player2health<0)
 		{
-			// insert death event here
+			Destroy(GameObject.Find ("Third_world_camera"));
 		}
 	}
 
