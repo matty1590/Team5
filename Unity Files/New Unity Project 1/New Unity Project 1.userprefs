@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="G:\FlappyUnity2D\Assets\player.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\thirdShop.cs">
     <Files>
-      <File FileName="G:\FlappyUnity2D\Assets\player.js" Line="54" Column="15" />
-      <File FileName="G:\FlappyUnity2D\Assets\Move.js" Line="20" Column="39" />
+      <File FileName="Assets\ThirdworldSpawnerCS.cs" Line="31" Column="31" />
+      <File FileName="Assets\thirdShop.cs" Line="35" Column="46" />
+      <File FileName="Assets\shopFirst.cs" Line="59" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

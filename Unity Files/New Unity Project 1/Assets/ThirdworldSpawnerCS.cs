@@ -8,6 +8,8 @@ public class ThirdworldSpawnerCS : MonoBehaviour {
 	public Vector3 spawn_position;
 	public double timer = 0.0;
 	public GameObject temp_spawn_cube;
+
+	public int sRandom;
 	// Use this for initialization
 	void Start () {
 	
@@ -26,9 +28,10 @@ public class ThirdworldSpawnerCS : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		sRandom = Random.Range(15,25);
 		if(pauseWorld.paused == false){
 		timer += Time.deltaTime;
-		if(timer > 10)
+			if(timer > sRandom)
 		{
 			spawn_Collectable();
 			timer = 0.0;
