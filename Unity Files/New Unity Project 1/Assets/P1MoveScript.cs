@@ -16,12 +16,12 @@ public class P1MoveScript : MonoBehaviour {
 		// when Up Arrow is pressed, moves object forward 0.1 units per frame
 		if(Input.GetKey(KeyCode.UpArrow))
 		{
-			transform.Translate (0,0,0.1f);
+			transform.Translate (0,0,0.2f);
 		}
 		// When down arrow is pressed, moves object backwards 0.1 units per frame
 		if(Input.GetKey(KeyCode.DownArrow))
 		{
-			transform.Translate (0,0,-0.1f);
+			transform.Translate (0,0,-0.2f);
 		}
 		//when left arrow is pressed, rotates object left 2 degrees per frame
 		if(Input.GetKey(KeyCode.LeftArrow))

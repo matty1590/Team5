@@ -178,7 +178,7 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1559614951}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: 1d06c57c2bf45d64da6c94daa29b1c05, type: 3}
+  m_Texture: {fileID: 2800000, guid: c8ff86c3eb92a0b438ff7d0f2bf193f9, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1559614951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8db441842752f741b646e623a432636, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c821f3070d3efb4ea7ddbfe03a86b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customSkin: {fileID: 11400000, guid: 500747954aa436f458cec3077457678c, type: 2}
+  customSkin: {fileID: 11400000, guid: 825166e80a62c304295443172935657d, type: 2}

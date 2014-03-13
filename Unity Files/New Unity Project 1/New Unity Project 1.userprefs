@@ -1,8 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\tutorialPopups.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scr_Pick_Up_2.cs">
     <Files>
-      <File FileName="Assets\tutorialPopups.cs" Line="22" Column="13" />
+      <File FileName="Assets\thirdShop.cs" Line="22" Column="5" />
+      <File FileName="Assets\P1MoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Event Code\Event.cs" Line="24" Column="12" />
+      <File FileName="Assets\StatsCode.cs" Line="21" Column="39" />
+      <File FileName="Assets\GuiDisplay.cs" Line="37" Column="54" />
+      <File FileName="Assets\ReplayButton.cs" Line="25" Column="54" />
+      <File FileName="Assets\name.cs" Line="40" Column="5" />
+      <File FileName="Assets\name2.cs" Line="40" Column="5" />
+      <File FileName="Assets\TiggerSound.cs" Line="12" Column="41" />
+      <File FileName="Assets\scr_Pick_Up.cs" Line="33" Column="3" />
+      <File FileName="Assets\scr_Pick_Up_2.cs" Line="36" Column="1" />
+      <File FileName="Assets\FirstWorldCollectablespawner.js" Line="9" Column="75" />
+      <File FileName="Assets\ThirdworldSpawnerCS.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

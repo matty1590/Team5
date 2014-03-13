@@ -19,9 +19,10 @@ public class thirdShop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//Debug.Log(distance);
 		distance = Vector3.Distance(thirdPlayer.transform.position, transform.position);
 		
-		if(distance < 2)
+		if(distance < 6)
 		{
 			range = true;
 		}else{ range = false;}
