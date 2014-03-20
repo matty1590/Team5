@@ -6,7 +6,7 @@ var timer = 0.0;
 
 function spawn_Collectable ()
 {
-spawn_position = Vector3 (Random.Range(-4.5, 4.5),-4.7,Random.Range(-4.5, 4.5)) ;
+spawn_position = Vector3 (Random.Range(-22, 7.5),-4.5,Random.Range(-21, 26.5)) ;
 var temp_spawn_cube = Instantiate(Collectable, spawn_position, Quaternion.identity);
 }
 

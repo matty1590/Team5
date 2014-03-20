@@ -18,9 +18,9 @@ public class ThirdworldSpawnerCS : MonoBehaviour {
 	void spawn_Collectable ()
 	{
 
-		spawn_position.x = Random.Range(-4.5f, 4.5f);
-		spawn_position.y = 5.2f;
-		spawn_position.z = Random.Range(-4.5f, 4.5f); 
+		spawn_position.x = Random.Range(-39.5f, -159.5f);
+		spawn_position.y = -95.7693f;
+		spawn_position.z = Random.Range(-90f, 85.5f); 
 		GameObject temp_spawn_cube = (GameObject)Instantiate(Collectable, spawn_position, transform.rotation);
 		//GameObject go = (GameObject)Instantiate(Resources.Load(Collectable)); ;
 	}
