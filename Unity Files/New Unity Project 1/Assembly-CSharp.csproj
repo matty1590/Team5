@@ -46,18 +46,61 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CharacterNamer.cs" />
+     <Compile Include="Assets\Event Code\Event.cs" />
+     <Compile Include="Assets\Event Code\FirstHighNegative.cs" />
+     <Compile Include="Assets\Event Code\FirstHighPositive.cs" />
+     <Compile Include="Assets\Event Code\FirstLowNegative.cs" />
+     <Compile Include="Assets\Event Code\FirstLowPositive.cs" />
+     <Compile Include="Assets\Event Code\FirstMidNegative.cs" />
+     <Compile Include="Assets\Event Code\FirstMidPositive.cs" />
+     <Compile Include="Assets\Event Code\ThirdHighNegative.cs" />
+     <Compile Include="Assets\Event Code\ThirdHighPositive.cs" />
+     <Compile Include="Assets\Event Code\ThirdLowNegative.cs" />
+     <Compile Include="Assets\Event Code\ThirdLowPositive.cs" />
+     <Compile Include="Assets\Event Code\ThirdMidNegative.cs" />
+     <Compile Include="Assets\Event Code\ThirdMidPositive.cs" />
      <Compile Include="Assets\GuiDisplay.cs" />
      <Compile Include="Assets\P1MoveScript.cs" />
      <Compile Include="Assets\P2MoveScript.cs" />
+     <Compile Include="Assets\ReplayButton.cs" />
      <Compile Include="Assets\StatsCode.cs" />
      <Compile Include="Assets\ThirdworldSpawnerCS.cs" />
+     <Compile Include="Assets\TiggerSound.cs" />
      <Compile Include="Assets\donationBoothC.cs" />
+     <Compile Include="Assets\firstworldCollectSpawnerCS.cs" />
+     <Compile Include="Assets\footsteps.cs" />
+     <Compile Include="Assets\name.cs" />
+     <Compile Include="Assets\name2.cs" />
      <Compile Include="Assets\pauseWorld.cs" />
      <Compile Include="Assets\scr_Pick_Up.cs" />
      <Compile Include="Assets\scr_Pick_Up_2.cs" />
+     <Compile Include="Assets\scr_Time.cs" />
      <Compile Include="Assets\shopFirst.cs" />
+     <Compile Include="Assets\splashGUI.cs" />
      <Compile Include="Assets\thirdShop.cs" />
      <Compile Include="Assets\tutorialPopups.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{8A372BAF-BA95-0346-D5FC-D82F8865A500}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{BE051A15-E501-BE1B-C75D-2D2D11F97DF9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
