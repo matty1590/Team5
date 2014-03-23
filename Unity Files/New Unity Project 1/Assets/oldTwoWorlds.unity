@@ -1857,7 +1857,7 @@ GameObject:
   - 81: {fileID: 63349445}
   m_Layer: 10
   m_Name: First_world_Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3962,6 +3962,97 @@ MeshFilter:
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 114059008}
   m_Mesh: {fileID: 4300004, guid: 0e92325d08db0514785ed1d073f0557a, type: 3}
+--- !u!1 &114140391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 114140396}
+  - 33: {fileID: 114140395}
+  - 65: {fileID: 114140394}
+  - 23: {fileID: 114140393}
+  - 114: {fileID: 114140392}
+  m_Layer: 0
+  m_Name: metal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114140392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114140391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45656c04749321a4f9a6493a3aa787cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thirdPlayer: {fileID: 0}
+  range: 0
+  distance: 0
+  pressed: 0
+  timeleft: 30
+  available: 0
+  totalMoney: 0
+  metal: 0
+  metalfound: 0
+  m: 0
+--- !u!23 &114140393
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114140391}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!65 &114140394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114140391}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &114140395
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114140391}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &114140396
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114140391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -85.7660828, y: -94.2352371, z: -70.5197906}
+  m_LocalScale: {x: 1.95157611, y: 3.69293737, z: 5.55277586}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &115059037
 GameObject:
   m_ObjectHideFlags: 0
@@ -26260,6 +26351,7 @@ GameObject:
   - 114: {fileID: 890949940}
   - 114: {fileID: 890949941}
   - 114: {fileID: 890949942}
+  - 114: {fileID: 890949943}
   m_Layer: 0
   m_Name: Gui Object
   m_TagString: Untagged
@@ -26344,6 +26436,27 @@ MonoBehaviour:
   text: 
   name22: 
   stringToEdit: Input Character Name
+--- !u!114 &890949943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890949936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5184a0f4e3e7843a43454aec3ecdc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showStockMarket: 0
+  stock1: 0
+  stock2: 0
+  stock3: 0
+  stock1Amount: 0
+  stock2Amount: 0
+  stock3Amount: 0
+  hSliderValue: 0
+  timeLeft: 30
+  stockUpdate: 0
 --- !u!1 &892122400
 GameObject:
   m_ObjectHideFlags: 0
@@ -31238,7 +31351,7 @@ GameObject:
   - 81: {fileID: 1051369908}
   m_Layer: 11
   m_Name: Third_world_camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44249,6 +44362,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140e6d24293c5a440b3b664ed1f8a97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controlsOne: {fileID: 1759139115}
+  controlsTwo: {fileID: 527815656}
+  controlsInfo: {fileID: 1423653249}
+  ii: 0
 --- !u!114 &1488876559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47783,68 +47900,6 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
---- !u!1 &1613529399
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1613529401}
-  - 108: {fileID: 1613529400}
-  m_Layer: 11
-  m_Name: Directional light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &1613529400
-Light:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1613529399}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: .5
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_Strength: 1
-    m_Bias: .0500000007
-    m_Softness: 4
-    m_SoftnessFade: 1
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_ActuallyLightmapped: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 1
-  m_ShadowSamples: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
-  m_IndirectIntensity: 1
-  m_AreaSize: {x: 1, y: 1}
---- !u!4 &1613529401
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1613529399}
-  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
-  m_LocalPosition: {x: -58.9215736, y: -71.7514648, z: 58.2770844}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
 --- !u!1 &1616013226
 GameObject:
   m_ObjectHideFlags: 0

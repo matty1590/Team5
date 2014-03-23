@@ -68,6 +68,7 @@
      <Compile Include="Assets\ThirdworldSpawnerCS.cs" />
      <Compile Include="Assets\TiggerSound.cs" />
      <Compile Include="Assets\donationBoothC.cs" />
+     <Compile Include="Assets\firstJob.cs" />
      <Compile Include="Assets\firstworldCollectSpawnerCS.cs" />
      <Compile Include="Assets\footsteps.cs" />
      <Compile Include="Assets\name.cs" />
@@ -78,6 +79,7 @@
      <Compile Include="Assets\scr_Time.cs" />
      <Compile Include="Assets\shopFirst.cs" />
      <Compile Include="Assets\splashGUI.cs" />
+     <Compile Include="Assets\thirdJob.cs" />
      <Compile Include="Assets\thirdShop.cs" />
      <Compile Include="Assets\tutorialPopups.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />

@@ -4,16 +4,19 @@ var drag = 10.0;
 var angularDrag = 5.0;
 var distance = 0.2;
 var attachToCenterOfMass = false;
-
+var thirdPlayer;
+var distancefrom;	
 private var springJoint : SpringJoint;
 
 function Update ()
 {
+thirdPlayer = GameObject.Find("Third_world_camera");
+distancefrom = Vector3.Distance(thirdPlayer.transform.position, transform.position);
 	// Make sure the user pressed the mouse down
 	if (!Input.GetMouseButtonDown (0))
 		return;
 
-	var mainCamera = FindCamera();
+	var mainCamera =     Camera.mainCamera;
 		
 	// We need to actually hit an object
 	var hit : RaycastHit;
@@ -53,11 +56,12 @@ function Update ()
 
 function DragObject (distance : float)
 {
+if(distancefrom < 5){
 	var oldDrag = springJoint.connectedBody.drag;
 	var oldAngularDrag = springJoint.connectedBody.angularDrag;
 	springJoint.connectedBody.drag = drag;
 	springJoint.connectedBody.angularDrag = angularDrag;
-	var mainCamera = FindCamera();
+	var mainCamera =     Camera.mainCamera;
 	while (Input.GetMouseButton (0))
 	{
 		var ray = mainCamera.ScreenPointToRay (Input.mousePosition);
@@ -69,6 +73,7 @@ function DragObject (distance : float)
 		springJoint.connectedBody.drag = oldDrag;
 		springJoint.connectedBody.angularDrag = oldAngularDrag;
 		springJoint.connectedBody = null;
+	}
 	}
 }
 
