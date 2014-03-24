@@ -1,21 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\pauseWorld.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Desktop\FlappyUnity2D\Assets\MainMenu.js">
     <Files>
-      <File FileName="Assets\pauseWorld.cs" Line="36" Column="2" />
-      <File FileName="Assets\thirdShop.cs" Line="1" Column="1" />
-      <File FileName="Assets\P1MoveScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Event Code\Event.cs" Line="1" Column="1" />
-      <File FileName="Assets\StatsCode.cs" Line="1" Column="1" />
-      <File FileName="Assets\GuiDisplay.cs" Line="1" Column="1" />
-      <File FileName="Assets\ReplayButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\name.cs" Line="1" Column="1" />
-      <File FileName="Assets\name2.cs" Line="1" Column="1" />
-      <File FileName="Assets\TiggerSound.cs" Line="1" Column="1" />
-      <File FileName="Assets\scr_Pick_Up.cs" Line="1" Column="1" />
-      <File FileName="Assets\scr_Pick_Up_2.cs" Line="36" Column="1" />
-      <File FileName="Assets\FirstWorldCollectablespawner.js" Line="1" Column="1" />
-      <File FileName="Assets\ThirdworldSpawnerCS.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\Desktop\FlappyUnity2D\Assets\clearScores.js" Line="22" Column="2" />
+      <File FileName="..\..\..\..\..\Desktop\FlappyUnity2D\Assets\MainMenu.js" Line="12" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
