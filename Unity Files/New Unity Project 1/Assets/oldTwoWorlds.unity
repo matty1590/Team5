@@ -3974,6 +3974,7 @@ GameObject:
   - 65: {fileID: 114140394}
   - 23: {fileID: 114140393}
   - 114: {fileID: 114140392}
+  - 114: {fileID: 114140397}
   m_Layer: 0
   m_Name: metal
   m_TagString: Untagged
@@ -3992,16 +3993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45656c04749321a4f9a6493a3aa787cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thirdPlayer: {fileID: 0}
-  range: 0
-  distance: 0
-  pressed: 0
-  timeleft: 30
-  available: 0
-  totalMoney: 0
-  metal: 0
-  metalfound: 0
-  m: 0
 --- !u!23 &114140393
 Renderer:
   m_ObjectHideFlags: 0
@@ -4053,6 +4044,27 @@ Transform:
   m_LocalScale: {x: 1.95157611, y: 3.69293737, z: 5.55277586}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &114140397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114140391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f907e926da7589499e1527bf30966d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thirdPlayer: {fileID: 0}
+  range: 0
+  distance: 0
+  pressed: 0
+  timeleft: 30
+  available: 0
+  totalMoney: 0
+  metal: 0
+  metalfound: 0
+  m: 0
 --- !u!1 &115059037
 GameObject:
   m_ObjectHideFlags: 0
@@ -26352,6 +26364,7 @@ GameObject:
   - 114: {fileID: 890949941}
   - 114: {fileID: 890949942}
   - 114: {fileID: 890949943}
+  - 114: {fileID: 890949944}
   m_Layer: 0
   m_Name: Gui Object
   m_TagString: Untagged
@@ -26442,9 +26455,20 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 890949936}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd5184a0f4e3e7843a43454aec3ecdc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &890949944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 890949936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4abc1e22850acac40afd6d44dc1f8688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   showStockMarket: 0
@@ -44362,10 +44386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140e6d24293c5a440b3b664ed1f8a97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlsOne: {fileID: 1759139115}
-  controlsTwo: {fileID: 527815656}
-  controlsInfo: {fileID: 1423653249}
-  ii: 0
 --- !u!114 &1488876559
 MonoBehaviour:
   m_ObjectHideFlags: 0

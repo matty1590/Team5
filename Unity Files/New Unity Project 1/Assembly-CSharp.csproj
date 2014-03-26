@@ -81,7 +81,6 @@
      <Compile Include="Assets\splashGUI.cs" />
      <Compile Include="Assets\thirdJob.cs" />
      <Compile Include="Assets\thirdShop.cs" />
-     <Compile Include="Assets\tutorialPopups.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
