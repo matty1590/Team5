@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\Desktop\FlappyUnity2D\Assets\MainMenu.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ReplayButton.cs">
     <Files>
-      <File FileName="..\..\..\..\..\Desktop\FlappyUnity2D\Assets\clearScores.js" Line="22" Column="2" />
-      <File FileName="..\..\..\..\..\Desktop\FlappyUnity2D\Assets\MainMenu.js" Line="12" Column="35" />
+      <File FileName="Assets\GuiDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets\ReplayButton.cs" Line="21" Column="67" />
+      <File FileName="Assets\StatsCode.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

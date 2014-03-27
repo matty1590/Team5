@@ -741,6 +741,7 @@ GameObject:
   - 33: {fileID: 20048889}
   - 23: {fileID: 20048888}
   - 111: {fileID: 20048887}
+  - 64: {fileID: 20048890}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -804,6 +805,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 20048885}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &20048890
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20048885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &21657205
 GameObject:
@@ -1091,6 +1105,7 @@ GameObject:
   - 33: {fileID: 29469434}
   - 23: {fileID: 29469433}
   - 111: {fileID: 29469432}
+  - 64: {fileID: 29469435}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -1154,6 +1169,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 29469430}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &29469435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 29469430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &34075141
 GameObject:
@@ -1857,7 +1885,7 @@ GameObject:
   - 81: {fileID: 63349445}
   m_Layer: 10
   m_Name: First_world_Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1934,6 +1962,7 @@ GameObject:
   - 33: {fileID: 67019959}
   - 23: {fileID: 67019958}
   - 111: {fileID: 67019957}
+  - 64: {fileID: 67019960}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -1997,6 +2026,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 67019955}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &67019960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 67019955}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &69262983
 GameObject:
@@ -2484,6 +2526,7 @@ GameObject:
   - 33: {fileID: 100639929}
   - 23: {fileID: 100639928}
   - 111: {fileID: 100639927}
+  - 64: {fileID: 100639930}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -2547,6 +2590,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 100639925}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &100639930
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 100639925}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1001 &103269259
 Prefab:
@@ -4239,6 +4295,7 @@ GameObject:
   - 33: {fileID: 127888169}
   - 23: {fileID: 127888168}
   - 111: {fileID: 127888167}
+  - 64: {fileID: 127888170}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -4302,6 +4359,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 127888165}
+  m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
+--- !u!64 &127888170
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 127888165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
 --- !u!1 &128739495
 GameObject:
@@ -4835,6 +4905,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 135287541}
   - 95: {fileID: 135287542}
+  - 65: {fileID: 135287543}
   m_Layer: 11
   m_Name: Fence_4
   m_TagString: Untagged
@@ -4871,6 +4942,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &135287543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135287540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &135704864
 GameObject:
   m_ObjectHideFlags: 0
@@ -6424,6 +6507,7 @@ GameObject:
   - 33: {fileID: 188943284}
   - 23: {fileID: 188943283}
   - 111: {fileID: 188943282}
+  - 64: {fileID: 188943285}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -6487,6 +6571,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 188943280}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &188943285
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 188943280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &191278438
 GameObject:
@@ -7045,6 +7142,7 @@ GameObject:
   - 33: {fileID: 210343596}
   - 23: {fileID: 210343595}
   - 111: {fileID: 210343594}
+  - 64: {fileID: 210343597}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -7108,6 +7206,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 210343592}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &210343597
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 210343592}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &211879342
 GameObject:
@@ -10724,6 +10835,7 @@ GameObject:
   - 33: {fileID: 332641073}
   - 23: {fileID: 332641072}
   - 111: {fileID: 332641071}
+  - 64: {fileID: 332641074}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -10788,6 +10900,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 332641069}
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &332641074
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332641069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &333623583
 GameObject:
   m_ObjectHideFlags: 0
@@ -10797,6 +10922,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 333623584}
   - 95: {fileID: 333623585}
+  - 65: {fileID: 333623586}
   m_Layer: 11
   m_Name: Fence_2
   m_TagString: Untagged
@@ -10834,6 +10960,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &333623586
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 333623583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &334393121
 GameObject:
   m_ObjectHideFlags: 0
@@ -11235,6 +11373,7 @@ GameObject:
   - 33: {fileID: 346503947}
   - 23: {fileID: 346503946}
   - 111: {fileID: 346503945}
+  - 64: {fileID: 346503948}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -11298,6 +11437,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 346503943}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &346503948
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 346503943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &348303802
 GameObject:
@@ -11540,6 +11692,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 354059954}
   - 95: {fileID: 354059955}
+  - 65: {fileID: 354059956}
   m_Layer: 11
   m_Name: Fence_4
   m_TagString: Untagged
@@ -11576,6 +11729,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &354059956
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 354059953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &355040477
 GameObject:
   m_ObjectHideFlags: 0
@@ -11657,6 +11822,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 355122987}
   - 95: {fileID: 355122988}
+  - 65: {fileID: 355122989}
   m_Layer: 11
   m_Name: Fence_2
   m_TagString: Untagged
@@ -11694,6 +11860,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &355122989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 355122986}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &356963362
 GameObject:
   m_ObjectHideFlags: 0
@@ -11703,6 +11881,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 356963363}
   - 95: {fileID: 356963364}
+  - 65: {fileID: 356963365}
   m_Layer: 11
   m_Name: Fence_6
   m_TagString: Untagged
@@ -11739,6 +11918,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &356963365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 356963362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &360304372
 GameObject:
   m_ObjectHideFlags: 0
@@ -11866,6 +12057,7 @@ GameObject:
   - 33: {fileID: 368166945}
   - 23: {fileID: 368166944}
   - 111: {fileID: 368166943}
+  - 64: {fileID: 368166946}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -11929,6 +12121,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 368166941}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &368166946
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 368166941}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &371960534
 GameObject:
@@ -13499,6 +13704,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 427965045}
   - 95: {fileID: 427965046}
+  - 65: {fileID: 427965047}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -13536,6 +13742,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &427965047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 427965044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1001 &428379851
 Prefab:
   m_ObjectHideFlags: 0
@@ -14012,6 +14230,7 @@ GameObject:
   - 33: {fileID: 432223884}
   - 23: {fileID: 432223883}
   - 111: {fileID: 432223882}
+  - 64: {fileID: 432223885}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -14075,6 +14294,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 432223880}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &432223885
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432223880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &434118492
 GameObject:
@@ -14724,6 +14956,7 @@ GameObject:
   - 33: {fileID: 448908449}
   - 23: {fileID: 448908448}
   - 111: {fileID: 448908447}
+  - 64: {fileID: 448908450}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -14787,6 +15020,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 448908445}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &448908450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 448908445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &449111955
 GameObject:
@@ -15443,6 +15689,7 @@ GameObject:
   - 33: {fileID: 468681893}
   - 23: {fileID: 468681892}
   - 111: {fileID: 468681891}
+  - 64: {fileID: 468681894}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -15506,6 +15753,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 468681889}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &468681894
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 468681889}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &475293567
 GameObject:
@@ -16071,6 +16331,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 499343080}
   - 95: {fileID: 499343081}
+  - 65: {fileID: 499343082}
   m_Layer: 11
   m_Name: Fence_2
   m_TagString: Untagged
@@ -16108,6 +16369,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &499343082
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 499343079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &504926988
 GameObject:
   m_ObjectHideFlags: 0
@@ -18213,6 +18486,7 @@ GameObject:
   - 33: {fileID: 585014886}
   - 23: {fileID: 585014885}
   - 111: {fileID: 585014884}
+  - 64: {fileID: 585014887}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -18276,6 +18550,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 585014882}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &585014887
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585014882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &587857502
 GameObject:
@@ -18438,6 +18725,7 @@ GameObject:
   - 33: {fileID: 593236109}
   - 23: {fileID: 593236108}
   - 111: {fileID: 593236107}
+  - 64: {fileID: 593236110}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -18502,6 +18790,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 593236105}
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &593236110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 593236105}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &594604584
 GameObject:
   m_ObjectHideFlags: 0
@@ -18513,6 +18814,7 @@ GameObject:
   - 33: {fileID: 594604588}
   - 23: {fileID: 594604587}
   - 111: {fileID: 594604586}
+  - 64: {fileID: 594604589}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -18576,6 +18878,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 594604584}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &594604589
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 594604584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &598088215
 GameObject:
@@ -19475,6 +19790,7 @@ GameObject:
   - 33: {fileID: 629458441}
   - 23: {fileID: 629458440}
   - 111: {fileID: 629458439}
+  - 64: {fileID: 629458442}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -19538,6 +19854,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 629458437}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &629458442
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 629458437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &640684263
 GameObject:
@@ -21428,6 +21757,7 @@ GameObject:
   - 33: {fileID: 720090523}
   - 23: {fileID: 720090522}
   - 111: {fileID: 720090521}
+  - 64: {fileID: 720090524}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -21491,6 +21821,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 720090519}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &720090524
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 720090519}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1001 &725524688
 Prefab:
@@ -22201,6 +22544,7 @@ GameObject:
   - 33: {fileID: 740607146}
   - 23: {fileID: 740607145}
   - 111: {fileID: 740607144}
+  - 64: {fileID: 740607147}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -22264,6 +22608,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 740607142}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &740607147
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 740607142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &742081325
 GameObject:
@@ -23004,6 +23361,7 @@ GameObject:
   - 33: {fileID: 781906069}
   - 23: {fileID: 781906068}
   - 111: {fileID: 781906067}
+  - 64: {fileID: 781906070}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -23067,6 +23425,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 781906065}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &781906070
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 781906065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &782498629
 GameObject:
@@ -25185,6 +25556,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 857311234}
   - 95: {fileID: 857311235}
+  - 65: {fileID: 857311236}
   m_Layer: 11
   m_Name: Fence_2
   m_TagString: Untagged
@@ -25222,6 +25594,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &857311236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857311233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &858916958
 GameObject:
   m_ObjectHideFlags: 0
@@ -25517,6 +25901,7 @@ GameObject:
   - 33: {fileID: 864819670}
   - 23: {fileID: 864819669}
   - 111: {fileID: 864819668}
+  - 64: {fileID: 864819671}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -25580,6 +25965,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 864819666}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &864819671
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 864819666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &865117695
 GameObject:
@@ -26260,7 +26658,6 @@ GameObject:
   - 114: {fileID: 890949940}
   - 114: {fileID: 890949941}
   - 114: {fileID: 890949942}
-  - 114: {fileID: 890949943}
   m_Layer: 0
   m_Name: Gui Object
   m_TagString: Untagged
@@ -26345,27 +26742,6 @@ MonoBehaviour:
   text: 
   name22: 
   stringToEdit: Input Character Name
---- !u!114 &890949943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 890949936}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd5184a0f4e3e7843a43454aec3ecdc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showStockMarket: 0
-  stock1: 0
-  stock2: 0
-  stock3: 0
-  stock1Amount: 0
-  stock2Amount: 0
-  stock3Amount: 0
-  hSliderValue: 0
-  timeLeft: 30
-  stockUpdate: 0
 --- !u!1 &892122400
 GameObject:
   m_ObjectHideFlags: 0
@@ -26562,6 +26938,7 @@ GameObject:
   - 33: {fileID: 894804919}
   - 23: {fileID: 894804918}
   - 111: {fileID: 894804917}
+  - 64: {fileID: 894804920}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -26625,6 +27002,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 894804915}
+  m_Mesh: {fileID: 4300000, guid: 4c85abd0a4d974473b97e81d10a3a6bc, type: 3}
+--- !u!64 &894804920
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 894804915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 4c85abd0a4d974473b97e81d10a3a6bc, type: 3}
 --- !u!1 &896068045
 GameObject:
@@ -26894,6 +27284,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 908169883}
   - 95: {fileID: 908169884}
+  - 65: {fileID: 908169885}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -26931,6 +27322,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &908169885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 908169882}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &908592493
 GameObject:
   m_ObjectHideFlags: 0
@@ -27126,6 +27529,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 909809463}
   - 95: {fileID: 909809464}
+  - 65: {fileID: 909809465}
   m_Layer: 11
   m_Name: Fence_5
   m_TagString: Untagged
@@ -27162,6 +27566,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &909809465
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 909809462}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &912255357
 GameObject:
   m_ObjectHideFlags: 0
@@ -27522,6 +27938,7 @@ GameObject:
   - 33: {fileID: 925503772}
   - 23: {fileID: 925503771}
   - 111: {fileID: 925503770}
+  - 64: {fileID: 925503773}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -27585,6 +28002,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 925503768}
+  m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
+--- !u!64 &925503773
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925503768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
 --- !u!1 &927278095
 GameObject:
@@ -28207,6 +28637,7 @@ GameObject:
   - 33: {fileID: 946150900}
   - 23: {fileID: 946150899}
   - 111: {fileID: 946150898}
+  - 64: {fileID: 946150901}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -28270,6 +28701,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 946150896}
+  m_Mesh: {fileID: 4300000, guid: 4c85abd0a4d974473b97e81d10a3a6bc, type: 3}
+--- !u!64 &946150901
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 946150896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 4c85abd0a4d974473b97e81d10a3a6bc, type: 3}
 --- !u!1 &953210469
 GameObject:
@@ -29164,6 +29608,7 @@ GameObject:
   - 33: {fileID: 980024372}
   - 23: {fileID: 980024371}
   - 111: {fileID: 980024370}
+  - 64: {fileID: 980024373}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -29227,6 +29672,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 980024368}
+  m_Mesh: {fileID: 4300000, guid: 4c85abd0a4d974473b97e81d10a3a6bc, type: 3}
+--- !u!64 &980024373
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 980024368}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 4c85abd0a4d974473b97e81d10a3a6bc, type: 3}
 --- !u!1 &981846685
 GameObject:
@@ -29554,6 +30012,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 992856257}
   - 95: {fileID: 992856258}
+  - 65: {fileID: 992856259}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -29591,6 +30050,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &992856259
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 992856256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &995249669
 GameObject:
   m_ObjectHideFlags: 0
@@ -30157,6 +30628,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1018884838}
   - 95: {fileID: 1018884839}
+  - 65: {fileID: 1018884840}
   m_Layer: 11
   m_Name: Fence_3
   m_TagString: Untagged
@@ -30194,6 +30666,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1018884840
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1018884837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1026665084
 GameObject:
   m_ObjectHideFlags: 0
@@ -30315,6 +30799,7 @@ GameObject:
   - 33: {fileID: 1028394119}
   - 23: {fileID: 1028394118}
   - 111: {fileID: 1028394117}
+  - 64: {fileID: 1028394120}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -30378,6 +30863,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1028394115}
+  m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
+--- !u!64 &1028394120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1028394115}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
 --- !u!1001 &1029677906
 Prefab:
@@ -30569,6 +31067,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1032551748}
   - 95: {fileID: 1032551749}
+  - 65: {fileID: 1032551750}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -30606,6 +31105,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1032551750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032551747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1032716173
 GameObject:
   m_ObjectHideFlags: 0
@@ -31260,7 +31771,7 @@ GameObject:
   - 81: {fileID: 1051369908}
   m_Layer: 11
   m_Name: Third_world_camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31741,6 +32252,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1066462468}
   - 95: {fileID: 1066462469}
+  - 65: {fileID: 1066462470}
   m_Layer: 11
   m_Name: Fence_5
   m_TagString: Untagged
@@ -31777,6 +32289,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1066462470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1066462467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1068860119
 GameObject:
   m_ObjectHideFlags: 0
@@ -33120,6 +33644,7 @@ GameObject:
   - 4: {fileID: 1132761244}
   - 95: {fileID: 1132761246}
   - 23: {fileID: 1132761245}
+  - 65: {fileID: 1132761247}
   m_Layer: 11
   m_Name: 3rd_world_building_1
   m_TagString: Untagged
@@ -33180,6 +33705,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1132761247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1132761243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: -9.53674316e-07, z: 0}
 --- !u!1 &1137753858
 GameObject:
   m_ObjectHideFlags: 0
@@ -35582,6 +36119,7 @@ GameObject:
   - 33: {fileID: 1230527786}
   - 23: {fileID: 1230527785}
   - 111: {fileID: 1230527784}
+  - 64: {fileID: 1230527787}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -35645,6 +36183,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1230527782}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1230527787
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1230527782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1235300581
 GameObject:
@@ -35715,6 +36266,7 @@ GameObject:
   - 33: {fileID: 1237848056}
   - 23: {fileID: 1237848055}
   - 111: {fileID: 1237848054}
+  - 64: {fileID: 1237848057}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -35778,6 +36330,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1237848052}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1237848057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237848052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1238131111
 GameObject:
@@ -37157,6 +37722,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1296407230}
   - 95: {fileID: 1296407231}
+  - 65: {fileID: 1296407232}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -37194,6 +37760,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1296407232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1296407229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1299091172
 GameObject:
   m_ObjectHideFlags: 0
@@ -38204,6 +38782,7 @@ GameObject:
   - 33: {fileID: 1323474103}
   - 23: {fileID: 1323474102}
   - 111: {fileID: 1323474101}
+  - 64: {fileID: 1323474104}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -38267,6 +38846,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1323474099}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1323474104
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1323474099}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1324405576
 GameObject:
@@ -38499,6 +39091,7 @@ GameObject:
   - 33: {fileID: 1330006484}
   - 23: {fileID: 1330006483}
   - 111: {fileID: 1330006482}
+  - 64: {fileID: 1330006485}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -38562,6 +39155,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1330006480}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1330006485
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1330006480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1330297346
 GameObject:
@@ -39725,6 +40331,7 @@ GameObject:
   - 33: {fileID: 1358448555}
   - 23: {fileID: 1358448554}
   - 111: {fileID: 1358448553}
+  - 64: {fileID: 1358448556}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -39788,6 +40395,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1358448551}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1358448556
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1358448551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1359586517
 GameObject:
@@ -40451,6 +41071,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1374996061}
   - 95: {fileID: 1374996062}
+  - 65: {fileID: 1374996063}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -40488,6 +41109,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1374996063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1374996060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1378935363
 GameObject:
   m_ObjectHideFlags: 0
@@ -42624,6 +43257,7 @@ GameObject:
   - 33: {fileID: 1449671835}
   - 23: {fileID: 1449671834}
   - 111: {fileID: 1449671833}
+  - 64: {fileID: 1449671836}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -42687,6 +43321,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1449671831}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1449671836
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449671831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1450910750
 GameObject:
@@ -42931,6 +43578,7 @@ GameObject:
   - 33: {fileID: 1451909125}
   - 23: {fileID: 1451909124}
   - 111: {fileID: 1451909123}
+  - 64: {fileID: 1451909126}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -42994,6 +43642,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1451909121}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1451909126
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451909121}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1458899855
 GameObject:
@@ -44271,10 +44932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 140e6d24293c5a440b3b664ed1f8a97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlsOne: {fileID: 1759139115}
-  controlsTwo: {fileID: 527815656}
-  controlsInfo: {fileID: 1423653249}
-  ii: 0
 --- !u!114 &1488876559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46048,6 +46705,7 @@ GameObject:
   - 4: {fileID: 1539430519}
   - 95: {fileID: 1539430521}
   - 23: {fileID: 1539430520}
+  - 65: {fileID: 1539430522}
   m_Layer: 11
   m_Name: 3rd_world_building_1
   m_TagString: Untagged
@@ -46108,6 +46766,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1539430522
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1539430518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: -9.53674316e-07, z: -9.53674316e-07}
 --- !u!1 &1539656720
 GameObject:
   m_ObjectHideFlags: 0
@@ -46177,6 +46847,7 @@ GameObject:
   - 33: {fileID: 1540493029}
   - 23: {fileID: 1540493028}
   - 111: {fileID: 1540493027}
+  - 64: {fileID: 1540493030}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -46240,6 +46911,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1540493025}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1540493030
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1540493025}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1540554161
 GameObject:
@@ -46422,6 +47106,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1543279911}
   - 95: {fileID: 1543279912}
+  - 65: {fileID: 1543279913}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -46459,6 +47144,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1543279913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1543279910}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1545811965
 GameObject:
   m_ObjectHideFlags: 0
@@ -47302,6 +47999,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1593533832}
   - 95: {fileID: 1593533833}
+  - 65: {fileID: 1593533834}
   m_Layer: 11
   m_Name: Fence_4
   m_TagString: Untagged
@@ -47338,6 +48036,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1593533834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593533831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1594676143
 GameObject:
   m_ObjectHideFlags: 0
@@ -47479,6 +48189,7 @@ GameObject:
   - 33: {fileID: 1597268928}
   - 23: {fileID: 1597268927}
   - 111: {fileID: 1597268926}
+  - 64: {fileID: 1597268929}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -47542,6 +48253,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1597268924}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1597268929
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1597268924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1605590289
 GameObject:
@@ -47809,6 +48533,68 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!1 &1613529399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1613529401}
+  - 108: {fileID: 1613529400}
+  m_Layer: 11
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1613529400
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613529399}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: .5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_Softness: 4
+    m_SoftnessFade: 1
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_ActuallyLightmapped: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_ShadowSamples: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_IndirectIntensity: 1
+  m_AreaSize: {x: 1, y: 1}
+--- !u!4 &1613529401
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613529399}
+  m_LocalRotation: {x: .408217937, y: -.234569728, z: .109381661, w: .875426114}
+  m_LocalPosition: {x: -58.9215736, y: -71.7514648, z: 58.2770844}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &1616013226
 GameObject:
   m_ObjectHideFlags: 0
@@ -48055,6 +48841,7 @@ GameObject:
   - 33: {fileID: 1621495074}
   - 23: {fileID: 1621495073}
   - 111: {fileID: 1621495072}
+  - 64: {fileID: 1621495075}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -48118,6 +48905,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1621495070}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1621495075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1621495070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1623907652
 GameObject:
@@ -48800,6 +49600,7 @@ GameObject:
   - 33: {fileID: 1634581038}
   - 23: {fileID: 1634581037}
   - 111: {fileID: 1634581036}
+  - 64: {fileID: 1634581039}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -48863,6 +49664,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1634581034}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1634581039
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1634581034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1642829137
 GameObject:
@@ -50675,6 +51489,7 @@ GameObject:
   - 33: {fileID: 1734198928}
   - 23: {fileID: 1734198927}
   - 111: {fileID: 1734198926}
+  - 64: {fileID: 1734198929}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -50738,6 +51553,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1734198924}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1734198929
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734198924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1001 &1735233798
 Prefab:
@@ -51415,6 +52243,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1763856929}
   - 95: {fileID: 1763856930}
+  - 65: {fileID: 1763856931}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -51452,6 +52281,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1763856931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1763856928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1001 &1765516823
 Prefab:
   m_ObjectHideFlags: 0
@@ -51631,6 +52472,7 @@ GameObject:
   - 33: {fileID: 1768598405}
   - 23: {fileID: 1768598404}
   - 111: {fileID: 1768598403}
+  - 64: {fileID: 1768598406}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -51694,6 +52536,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1768598401}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1768598406
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768598401}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1770414252
 GameObject:
@@ -52048,6 +52903,7 @@ GameObject:
   - 33: {fileID: 1780941733}
   - 23: {fileID: 1780941732}
   - 111: {fileID: 1780941731}
+  - 64: {fileID: 1780941734}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -52111,6 +52967,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1780941729}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1780941734
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1780941729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1786056159
 GameObject:
@@ -53755,6 +54624,7 @@ GameObject:
   - 4: {fileID: 1853902040}
   - 95: {fileID: 1853902042}
   - 23: {fileID: 1853902041}
+  - 65: {fileID: 1853902043}
   m_Layer: 11
   m_Name: 3rd_world_building_1
   m_TagString: Untagged
@@ -53815,6 +54685,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1853902043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853902039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 9.53674316e-07, z: -1.43051147e-06}
 --- !u!1 &1855624557
 GameObject:
   m_ObjectHideFlags: 0
@@ -53962,6 +54844,7 @@ GameObject:
   - 33: {fileID: 1858248477}
   - 23: {fileID: 1858248476}
   - 111: {fileID: 1858248475}
+  - 64: {fileID: 1858248478}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -54025,6 +54908,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1858248473}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1858248478
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1858248473}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1858324483
 GameObject:
@@ -54428,6 +55324,7 @@ GameObject:
   - 33: {fileID: 1870908179}
   - 23: {fileID: 1870908178}
   - 111: {fileID: 1870908177}
+  - 64: {fileID: 1870908180}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -54491,6 +55388,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1870908175}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1870908180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870908175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1874222086
 GameObject:
@@ -56241,6 +57151,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1932187345}
   - 95: {fileID: 1932187346}
+  - 65: {fileID: 1932187347}
   m_Layer: 11
   m_Name: Fence_3
   m_TagString: Untagged
@@ -56278,6 +57189,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &1932187347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1932187344}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &1934587607
 GameObject:
   m_ObjectHideFlags: 0
@@ -56813,6 +57736,7 @@ GameObject:
   - 33: {fileID: 1950400482}
   - 23: {fileID: 1950400481}
   - 111: {fileID: 1950400480}
+  - 64: {fileID: 1950400483}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -56876,6 +57800,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 1950400478}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &1950400483
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1950400478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &1952545196
 GameObject:
@@ -58220,6 +59157,7 @@ GameObject:
   - 33: {fileID: 2000564604}
   - 23: {fileID: 2000564603}
   - 111: {fileID: 2000564602}
+  - 64: {fileID: 2000564605}
   m_Layer: 11
   m_Name: Palm (group)
   m_TagString: Untagged
@@ -58283,6 +59221,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 2000564600}
+  m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
+--- !u!64 &2000564605
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2000564600}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 3bf429429e1ed4353922c9ebf4c8abbf, type: 3}
 --- !u!1 &2002333252
 GameObject:
@@ -58794,6 +59745,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2014660617}
   - 95: {fileID: 2014660618}
+  - 65: {fileID: 2014660619}
   m_Layer: 11
   m_Name: fence_1
   m_TagString: Untagged
@@ -58831,6 +59783,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!65 &2014660619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2014660616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: .100000001, y: 1, z: .600000024}
+  m_Center: {x: -.0500000007, y: 0, z: .300000012}
 --- !u!1 &2015657593
 GameObject:
   m_ObjectHideFlags: 0
@@ -59436,6 +60400,7 @@ GameObject:
   - 33: {fileID: 2044621119}
   - 23: {fileID: 2044621118}
   - 111: {fileID: 2044621117}
+  - 64: {fileID: 2044621120}
   m_Layer: 11
   m_Name: Palm
   m_TagString: Untagged
@@ -59499,6 +60464,19 @@ MeshFilter:
     type: 2}
   m_PrefabInternal: {fileID: 108559319}
   m_GameObject: {fileID: 2044621115}
+  m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
+--- !u!64 &2044621120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2044621115}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 02e48269f8d554fbca75435761452392, type: 3}
 --- !u!1001 &2046804873
 Prefab:
